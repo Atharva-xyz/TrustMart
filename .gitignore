@@ -1,0 +1,21 @@
+
+# Java / Maven
+trustmart-backend/target/
+*.class
+*.log
+
+# React / Vite
+trustmart-frontend/node_modules/
+trustmart-frontend/dist/
+trustmart-frontend/.vite/
+
+# Secrets
+.env
+.env.*
+!.env.example
+application-local.properties
+application-local.yml
+
+# IDE files
+.vscode/
+.idea/
